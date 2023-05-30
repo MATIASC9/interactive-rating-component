@@ -8,32 +8,32 @@
     <title>Interactive rating component</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <!-- How did we do? -->
-      <div>
-        <img src="./public/icon-star.svg" alt="orange star icon">
-        <section>
-          <h3>How did we do?</h3>
-          <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div class="container__feedback">
+        <img class="container__icon" src="./public/icon-star.svg" alt="orange star icon">
+        <section class="container__tell-us">
+          <h3 class="container__title">How did we do?</h3>
+          <p class="container__paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
         </section>
-        <div>
-          <ol>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
+        <div class="container__rating">
+          <ol class="container__list">
+            <li class="container__list-item">1</li>
+            <li class="container__list-item">2</li>
+            <li class="container__list-item">3</li>
+            <li class="container__list-item">4</li>
+            <li class="container__list-item">5</li>
           </ol>
         </div>
-        <button>Submit</button>
+        <button class="container__button">Submit</button>
       </div>
       <!-- Thank you! -->
-      <div>
-        <img src="./public/illustration-thank-you.svg" alt="illustration thank you">
-        <p>You selected 4 out of 5</p>
-        <section>
-          <h3>Thank you!</h3>
-          <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      <div class="container__response">
+        <img class="container__header-illustration" src="./public/illustration-thank-you.svg" alt="illustration thank you">
+        <p class="container__amount-stars">You selected 4 out of 5</p>
+        <section class="container__thanks">
+          <h3 class="container__title">Thank you!</h3>
+          <p class="container__paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
         </section>
       </div>
     </div>
