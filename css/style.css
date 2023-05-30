@@ -73,6 +73,10 @@ background: var(--card-background-color);
   width: 20px;
   border-radius: 100%;
 }
+.rating__list-item:hover {
+  background-color: var(--medium-grey);
+  color: var(--white);
+}
 .feedback__button {
   display: flex;
   width: 100%;
@@ -84,6 +88,10 @@ background: var(--card-background-color);
   align-content: center;
   padding: 15px 0;
   text-transform: uppercase;
+}
+.feedback__button:active {
+  background-color: var(--white);
+  color: var(--orange);
 }
 /* Thank you! */
 .response {
