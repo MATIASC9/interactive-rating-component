@@ -25,6 +25,7 @@ background: var(--card-background-color);
   padding: 25px;
   width: 80%;
 }
+/* How did we do? */
 .feedback {
   display: flex;
   flex-direction: column;
@@ -83,4 +84,34 @@ background: var(--card-background-color);
   align-content: center;
   padding: 15px 0;
   text-transform: uppercase;
+}
+/* Thank you! */
+.response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.response__amount-stars {
+  padding: 10px;
+  background-color: var(--dark-blue);
+  border-radius: 50px;
+  color: var(--orange);
+  font-size: 14px;
+}
+.response__thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.response__title {
+  font-size: 1.5rem;
+  font-weight: var(--font-bold);
+}
+.response__paragraph {
+  font-size: 15px;
+  color: var(--medium-grey);
+  text-align: center;
+  line-height: 20px;
 }
